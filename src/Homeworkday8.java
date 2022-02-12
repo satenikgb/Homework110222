@@ -150,8 +150,8 @@ public class Homeworkday8 {
 
     public static void LeapYear(int year) {
 
-        if(year%4==0){
-            if((year%100==0)&&(year%100!=0)||(year%100==0)){
+
+            if((year%4==0)&&(year%100!=0)||(year%400==0)){
 
                 System.out.println("Year is leap year");
             }
@@ -161,7 +161,7 @@ public class Homeworkday8 {
         }
 
 
-    }
+
 
     /**   Generate random integer value, print true if random value
      corresponds these conditions, else print false(use boolean primitive
